@@ -216,14 +216,6 @@ requirements.txt      # Runtime dependencies
 pyproject.toml        # Package configuration
 ```
 
-## Documentation
-
-- [Architecture and protocol](docs/ARCHITECTURE.md)
-- [Lab and Wireshark guide](docs/LAB_GUIDE.md)
-- [Code walkthrough](docs/CODE_WALKTHROUGH.md)
-- [Viva notes](docs/VIVA.md)
-- [Validation record](docs/VALIDATION.md)
-
 ## Scope and Limitations
 
 - Video only; audio is not transmitted.
