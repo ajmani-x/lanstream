@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lanstream-cn"
+version = "1.0.0"
+description = "Peer-to-peer LAN video streaming and network analysis lab"
+requires-python = ">=3.10"
+dependencies = ["Pillow>=10", "opencv-python==4.11.0.86"]
+
+[project.scripts]
+lanstream = "lanstream.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["lanstream*"]
